@@ -1,0 +1,212 @@
+.font-inter {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-variation-settings:
+                    "slnt" 0;
+        }
+:root{
+    --vert : #1B6237;
+    --gris : #F3F3F3
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.mini-bar{
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    background: var(--vert);
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 35px;
+}
+ nav{
+     padding: 0 5%;
+     height: 90px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .search{
+     background-color: var(--gris);
+     border-radius: 25px 25px ;
+     width: 200px;
+     padding: 0 30px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ .banner{
+     padding-left: 20%;
+     font-weight: bold;
+     background-image: url("../media/banner.jpeg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: flex;
+     flex-direction: column;
+ }
+ h1{
+     color: var(--vert);
+     font-size: xxx-large;
+ }
+ h2{
+     padding-left: 10px;
+     font-size: xx-large;
+ }
+ main{
+     padding: 0 10%;
+ }
+ .buynow{
+     color: #ffffff;
+     background-color: var(--vert);
+     border-radius: 35px;
+     width: 8em;
+     height: 4em;
+     line-height: 4em;
+     text-align: center;
+ }
+ .filter{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ .filter p{
+     background-color: var(--gris);
+     color: #706e6e;
+     padding: 12px 14px;
+     margin: 18px 10px;
+     border-radius: 25px 25px;
+     font-size: small;
+     font-weight: bold;
+ }
+.filter .sortby {
+    margin-left: auto;
+    border:solid 1px #706e6e;
+    background-color: #ffffff;
+}
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: 23%;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.img-card{
+    height: 250px;
+    position: relative;
+}
+.heart {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 6px;
+    background-color: var(--gris);
+    border-radius: 100%;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-card{
+    background-color: var(--gris);
+    padding: 10px 10px;
+    position: relative;
+}
+.text-card :first-child{
+    margin-top: 0;
+    font-weight: bold;
+}
+.text-card p:nth-child(2){
+    color: grey;
+    font-weight: bold;
+    font-size: smaller;
+}
+.text-card i{
+    color: var(--vert);
+}
+.text-card :nth-child(3){
+    font-weight: bold;
+}
+.text-card p:nth-of-type(4){
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 25px 25px ;
+    padding: 4px 20px;
+    font-size: small;
+    font-weight: bold;
+}
+.text-card p:last-child{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.price {
+    font-size: smaller;
+    vertical-align: top;
+    margin-right: 1px;
+}
+h2:nth-of-type(2), h2:nth-of-type(3){
+    margin-top: 50px;
+}
+.pop-categories{
+display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+}
+.popular-card{
+    border-radius: 5px 5px;
+    padding: 15px 15px;
+    margin-bottom:40px;
+    background-color: var(--gris);
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    font-weight: bold;
+}
+.popular-card div:nth-child(2){
+    margin-left: 10%;
+}
+.popular-card div:nth-child(2) p:first-of-type{
+    font-size: x-large;
+}
+.popular-card div p:last-child {
+    color : #373636;
+}
+.popular-card div img{
+    height: 100%;
+}
+.footer-bar{
+    color: #222222;
+    font-weight: bold;
+    margin-top: 40px;
+    background-color: #E6E1E5;
+display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.copyright{
+    margin-top: 45px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.socials {
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    color: var(--vert);
+}
